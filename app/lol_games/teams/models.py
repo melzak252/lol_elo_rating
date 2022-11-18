@@ -14,4 +14,4 @@ class Team(Base):
     is_disbanded = _sql.Column(_sql.Boolean)
 
 class TeamRename(Base):
-    
+    pass
