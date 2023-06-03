@@ -1,11 +1,11 @@
 import sqlalchemy as _sql
 
 from app.lol_games.teams.models import Team
-from db import Base
+from database import Base
 
 
 class Player(Base):
-    __tablename__ = "players"
+    __tablename__ = "player"
     id = _sql.Column(_sql.Integer, index=True, primary_key=True)
     nick = _sql.Column(_sql.String)
     unique_nick = _sql.Column(_sql.String, unique=True)

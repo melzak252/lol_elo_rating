@@ -11,7 +11,7 @@ from sqlalchemy.orm.session import Session
 from app.fetch_data.constants import TEAMS_URL, TEAMS_HEADERS
 from app.lol_games.teams.db import create_team
 from app.lol_games.teams.schemas import TeamCreate
-from db import get_db
+from database import get_db
 
 
 class Fetcher(ABC):

@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, status
 from sqlalchemy.orm.session import Session
 
 import app.lol_games.teams.models as team_model
-from db import engine, get_db
+from database import engine, get_db
 import app.lol_games.teams.schemas as _schemas
 import app.lol_games.teams.db as team_db
 

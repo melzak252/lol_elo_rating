@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 import app.lol_games.games.models as games_models
-from db import engine
+from database import engine
 
 router = APIRouter(
     prefix="/games",

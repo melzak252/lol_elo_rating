@@ -12,5 +12,5 @@ router = APIRouter(
 )
 
 router.include_router(teams_router)
-router.include_router(games_router)
-router.include_router(players_router)
+# router.include_router(games_router)
+# router.include_router(players_router)
