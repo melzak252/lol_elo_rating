@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "lol power rating"
+version = "0.1.0"
+description = ""
+authors = ["melzak252 <melzacki.jakub@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+playwright = "^1.47.0"
+nest-asyncio = "^1.6.0"
+sqlalchemy = "^2.0.35"
+python-dotenv = "^1.0.1"
+asyncpg = "^0.29.0"
+uvicorn = "^0.31.0"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.2"
+jupyterlab = "^4.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
